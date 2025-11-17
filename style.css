@@ -1,0 +1,18 @@
+/* 確保 body 填滿視口，並居中內容 */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f7f7f7; /* 輕微的背景色 */
+    font-family: 'Inter', sans-serif;
+    flex-direction: column;
+}
+
+/* p5.js 畫布容器 */
+#quiz-container {
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    border-radius: 1rem; /* 圓角 */
+    overflow: hidden; /* 確保畫布的陰影和圓角正確顯示 */
+}
